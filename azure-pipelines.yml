@@ -8,10 +8,10 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'x'
+  azureServiceConnectionId: 'SMCStorage'
   
   # Web app name
-  webAppName: 'x'
+  webAppName: 'demo-azure-bokeh-app'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
